@@ -119,8 +119,17 @@ you can use the generic selector below, but it's slower:
 .icon-social-dribbble:before {
 	content: "\e00d";
 }
-.icon-shield:before {
-	content: "\e00e";
+.advantages_icon {
+	width: 55px;
+	height: 55px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.icon-shield {
+	margin-left: 10px;
+	margin-right: 15px !important;
+	background-image: url(../img/queue.png);
 }
 .icon-screen-tablet:before {
 	content: "\e00f";
@@ -257,8 +266,10 @@ you can use the generic selector below, but it's slower:
 .icon-calculator:before {
 	content: "\e049";
 }
-.icon-bubbles:before {
-	content: "\e04a";
+.icon-bubbles {
+	margin-left: 10px;
+	margin-right: 15px !important;
+	background-image: url(../img/price_tag_usd.png);
 }
 .icon-briefcase:before {
 	content: "\e04b";
@@ -392,8 +403,11 @@ you can use the generic selector below, but it's slower:
 .icon-bulb:before {
 	content: "\e076";
 }
-.icon-bar-chart:before {
-	content: "\e077";
+.icon-bar-chart {
+	width: 75px;
+	height: 75px;
+	margin-right: 5px !important;
+	background-image: url(../img/bag_in_box.png);
 }
 .icon-arrow-up:before {
 	content: "\e078";

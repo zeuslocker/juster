@@ -22,6 +22,22 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+h3.banner-content__prices{
+  color: white;
+  font-size: 3rem;
+}
+
+.banner-list .banner-content__price {
+  color: white;
+  font-size: 2rem;
+}
+
+
+.banner-content__hintinfo {
+  color: white !important;
+  padding: 4px 6px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   font-family: "Raleway", Lucida Sans Unicode, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -34,6 +50,42 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+.head-wrapper {
+  background-color: black;
+}
+.propositions__tree-juce-img {
+  max-height: 250px;
+}
+
+@media screen and (min-width: 992px) {
+  .propositions__tree-juce-text {
+    margin-top: 50px;
+  }
+}
+.contacts_title {
+  color: black;
+  font-size: 40px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+
+.contacts_item {
+  color: black;
+  font-size:26px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+#banner:before {
+  content: "";
+  position:absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%
+  ;background: rgba(0,0,0,0.5);
+}
+#map {
+  height: 400px;
+  width: 100%;
 }
 
 h1 {
@@ -491,7 +543,7 @@ Headline
   -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
   transition: background .5s ease-in-out, padding .5s ease-in-out;
   border: none;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: transparent;
   padding: 15px 0;
 }
 
